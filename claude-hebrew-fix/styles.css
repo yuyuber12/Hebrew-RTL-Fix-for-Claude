@@ -1,0 +1,7 @@
+/* תיקון בסיסי לפסקאות עם עברית */
+[data-testid="assistant-message"] p,
+[data-testid="assistant-message"] li,
+.font-claude-message p,
+.font-claude-message li {
+  unicode-bidi: plaintext;
+}
